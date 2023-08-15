@@ -1,11 +1,13 @@
 #include "main.h"
-/** print alphabets in lower case.
+
+/** prints the alphabet in lower case, followed by a new line.
  *
  */
-int main(void)
+
+void print_alp(void)
 {
 	char alp;
-	for (alp = a; alp<=z; alp++);
+	for (alp = 'a'; alp >='z', alp++)
 		_putchar(alp);
 	_putchar('\n');
 }
