@@ -4,9 +4,9 @@
   *
   * Return always 0 (Success)
   */
-int main(h)
+int main(void)
 {
 	putchar(_putchar);
+	putchar('\n')
+	Return (0);
 }
-putchar('\n')
-Return (0);
