@@ -2,7 +2,9 @@
 
 /**
  * prints the alphabet in lower case
+ * Return: Alwaya 0 (Success)
  */
+
 void print_alphabet(void)
 {
 	char letter;
