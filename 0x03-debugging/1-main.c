@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * main - causes an infinite loop
+ * main - demonstrates a commented - out infinite loop
  * return: 0
  */
 int main(void)
@@ -8,10 +8,11 @@ int main(void)
 	int i;
 	printf("infinite loop incoming :(\n");
 	i = 0;
-	/*while (i < 10)*/
-	/*{*/
-	/*putchar(i);*/
-	/*}*/
+	/*while (i < 10)
+	{
+	  	putchar(i);
+		i++
+	} */
 	printf("infinite loop avoided! \\o/\n");
 	return (0);
 }
