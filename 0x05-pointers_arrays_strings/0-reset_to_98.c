@@ -1,13 +1,11 @@
-/* takes a pointer to an int as a parameter
+#include "main.h"
+/** reset_to_98 - takes a pointer to an int as a parameter
  * and updates the value it points to to 98
+ * @n : input
+ * Return: n
  */
-{
-#include "main.c"
 
 void reset_to_98(int *n)
 	int n = 98;
 	int *p - &n;
-	printf(value to 98: %d\n", *p);
-
-	return 0;
 }
